@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <name>sample_props</name>
+  <dependencies />
+  <compositeEntityTypes />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="120.00000000" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4" y="-0.4" z="0.0" />
+      <bbMax x="0.4" y="0.4" z="1.2" />
+      <bsCentre x="0.0" y="0.0" z="0.6" />
+      <bsRadius value="0.9" />
+      <hdTextureDist value="40.00000000" />
+      <name>prop_bar_stool_01</name>
+      <textureDictionary>prop_bar_stool_01</textureDictionary>
+      <clipDictionary>xm_clip_example</clipDictionary>
+      <drawableDictionary />
+      <physicsDictionary>prop_bar_stool_01</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_bar_stool_01</assetName>
+      <extensions />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="200.00000000" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.0" y="-1.0" z="0.0" />
+      <bbMax x="1.0" y="1.0" z="2.8" />
+      <bsCentre x="0.0" y="0.0" z="1.4" />
+      <bsRadius value="2.5" />
+      <hdTextureDist value="60.00000000" />
+      <name>xm_lab_orbcan_screen_decal002</name>
+      <textureDictionary>xm_x17dlc_int_01</textureDictionary>
+      <clipDictionary>xm_x17_clip</clipDictionary>
+      <drawableDictionary />
+      <physicsDictionary>xm_lab_orbcan_screen_decal002</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>xm_lab_orbcan_screen_decal002</assetName>
+      <extensions />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="90.00000000" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.5" y="-0.5" z="0.0" />
+      <bbMax x="0.5" y="0.5" z="0.6" />
+      <bsCentre x="0.0" y="0.0" z="0.3" />
+      <bsRadius value="0.8" />
+      <hdTextureDist value="30.00000000" />
+      <name>hei_heist_flecca_crate</name>
+      <textureDictionary>hei_heist_flecca_crate</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>hei_heist_flecca_crate</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>hei_heist_flecca_crate</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+</CMapTypes>

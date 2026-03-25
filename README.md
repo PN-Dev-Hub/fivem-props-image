@@ -1,14 +1,46 @@
-# 📦 GTA Props Pack
+# GTA Props Pack
 
-Collection complète de props GTA avec images.
+Collection complete de props GTA avec images.
 
-## 📁 Structure
+## Extraction depuis un dossier GTA
+
+Tu peux generer un JSON propre depuis un dossier GTA extrait ou un GTA d'origine :
+
+```bash
+npm run extract:gta-props -- --input "D:\GTA_EXTRACT_OU_GTAV" --output ".\gta_props_from_folder.json"
+```
+
+Commande exacte pour ton dossier:
+
+```powershell
+Set-Location "F:\Bureau\txData\script\props"
+npm run extract:gta-props -- --input "F:\Epic Games\GTAV" --output ".\gta_props_from_folder.json"
+```
+Set-Location "F:\Bureau\txData\script\props"
+npm run extract:gta-props -- --input "F:\Epic Games\GTAV" --output ".\gta_props_from_folder.json"
+
+Options utiles :
+
+- `--group-by category` pour un rendu proche de `fivem_props.json`
+- `--group-by source` pour grouper par pack/source
+- `--mode props` pour filtrer les modeles orientes props
+- `--mode all` pour tout sortir
+- `--image-base-url` pour definir la base URL des images
+- `--image-extension` pour changer l'extension (`.jpg` par defaut)
+
+Le script lit les modeles `.ydr/.ydd` et les `.ytyp.xml` quand ils sont presents.
+Sur un GTA d'origine, il lit aussi directement les archives `.rpf` (mode `auto`).
+Si la lecture `.rpf` est partielle selon la version du jeu, il utilise `strings.txt` comme fallback (noms/hash/images, avec moins de metadata de chemin).
+Dans ce mode, les champs `patchRpfFilePath`, `patchModelFilePathHint` et `patchModelFilePathHintAlt` sont ajoutes pour prioriser les fichiers patch.
+Le champ `image` est genere automatiquement au format `.../images/<categorie>/<model>.jpg`.
+
+## Structure
 
 ```bash
 images/categorie/prop.jpg
 ```
 
-## 📚 Catégories
+## Categories
 
 - [Bar](docs/categories/bar.md)
 - [Bathroom](docs/categories/bathroom.md)

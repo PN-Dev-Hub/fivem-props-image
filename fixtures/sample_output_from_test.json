@@ -1,0 +1,195 @@
+[
+  {
+    "label": "Bar",
+    "name": "bar",
+    "props": [
+      {
+        "name": "prop_bar_stool_01",
+        "label": "Prop Bar Stool 01",
+        "model": "prop_bar_stool_01",
+        "hash": 2465202594,
+        "hashHex": "0x92f001a2",
+        "int32Hash": -1829764702,
+        "hexHash": "0x92f001a2",
+        "assetName": "prop_bar_stool_01",
+        "assetType": "ASSET_TYPE_DRAWABLE",
+        "lodDist": 120,
+        "hdTextureDist": 40,
+        "flags": "32",
+        "specialAttribute": "0",
+        "textureDictionary": "prop_bar_stool_01",
+        "physicsDictionary": "prop_bar_stool_01",
+        "clipDictionary": "xm_clip_example",
+        "defaultLodDistance": 120,
+        "sizeIndicator": "S",
+        "modelFilePath": "x64i/levels/gta5/props/interiors/prop_bar_stool_01.ydr",
+        "ytypFilePath": "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml",
+        "texturesDictionaryName": "prop_bar_stool_01",
+        "clipDictionaryName": "xm_clip_example",
+        "image": "https://raw.githubusercontent.com/PN-Dev-Hub/fivem-props-image/refs/heads/main/images/bar/prop_bar_stool_01.jpg",
+        "bounds": {
+          "bbMin": {
+            "x": -0.4,
+            "y": -0.4,
+            "z": 0
+          },
+          "bbMax": {
+            "x": 0.4,
+            "y": 0.4,
+            "z": 1.2
+          },
+          "bsCentre": {
+            "x": 0,
+            "y": 0,
+            "z": 0.6
+          },
+          "bsRadius": 0.9
+        },
+        "sourceFiles": [
+          "x64i/levels/gta5/props/interiors/prop_bar_stool_01.ydr",
+          "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml"
+        ],
+        "sourcePacks": [
+          "interiors",
+          "sample_props"
+        ],
+        "categories": [
+          "Bar",
+          "DRAWABLE"
+        ],
+        "hasModelFile": true,
+        "hasDefinitionFile": true
+      }
+    ]
+  },
+  {
+    "label": "Hei",
+    "name": "hei",
+    "props": [
+      {
+        "name": "hei_heist_flecca_crate",
+        "label": "Hei Heist Flecca Crate",
+        "model": "hei_heist_flecca_crate",
+        "hash": 1755369388,
+        "hashHex": "0x68a0cfac",
+        "int32Hash": 1755369388,
+        "hexHash": "0x68a0cfac",
+        "assetName": "hei_heist_flecca_crate",
+        "assetType": "ASSET_TYPE_DRAWABLE",
+        "lodDist": 90,
+        "hdTextureDist": 30,
+        "flags": "32",
+        "specialAttribute": "0",
+        "textureDictionary": "hei_heist_flecca_crate",
+        "physicsDictionary": "hei_heist_flecca_crate",
+        "defaultLodDistance": 90,
+        "sizeIndicator": "S",
+        "modelFilePath": "x64i/levels/gta5/props/interiors/hei_heist_flecca_crate.ydr",
+        "ytypFilePath": "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml",
+        "texturesDictionaryName": "hei_heist_flecca_crate",
+        "image": "https://raw.githubusercontent.com/PN-Dev-Hub/fivem-props-image/refs/heads/main/images/files_last/hei_heist_flecca_crate.jpg",
+        "bounds": {
+          "bbMin": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": 0
+          },
+          "bbMax": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.6
+          },
+          "bsCentre": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3
+          },
+          "bsRadius": 0.8
+        },
+        "sourceFiles": [
+          "x64i/levels/gta5/props/interiors/hei_heist_flecca_crate.ydr",
+          "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml"
+        ],
+        "sourcePacks": [
+          "interiors",
+          "sample_props"
+        ],
+        "categories": [
+          "Hei",
+          "DRAWABLE"
+        ],
+        "hasModelFile": true,
+        "hasDefinitionFile": true
+      }
+    ]
+  },
+  {
+    "label": "Xm",
+    "name": "xm",
+    "props": [
+      {
+        "name": "xm_lab_orbcan_screen_decal002",
+        "label": "Xm Lab Orbcan Screen Decal002",
+        "model": "xm_lab_orbcan_screen_decal002",
+        "hash": 2262795870,
+        "hashHex": "0x86df865e",
+        "int32Hash": -2032171426,
+        "hexHash": "0x86df865e",
+        "assetName": "xm_lab_orbcan_screen_decal002",
+        "assetType": "ASSET_TYPE_DRAWABLE",
+        "lodDist": 200,
+        "hdTextureDist": 60,
+        "flags": "32",
+        "specialAttribute": "0",
+        "textureDictionary": "xm_x17dlc_int_01",
+        "physicsDictionary": "xm_lab_orbcan_screen_decal002",
+        "clipDictionary": "xm_x17_clip",
+        "defaultLodDistance": 200,
+        "sizeIndicator": "M",
+        "dlcName": "mpchristmas2017",
+        "dlcLabel": "The Doomsday Heist",
+        "modelFilePath": "update/x64/dlcpacks/mpchristmas2017/dlc.rpf/x64/props/xm_lab_orbcan_screen_decal002.ydr",
+        "ytypFilePath": "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml",
+        "rpfFilePath": "update/x64/dlcpacks/mpchristmas2017/dlc.rpf",
+        "texturesDictionaryName": "xm_x17dlc_int_01",
+        "clipDictionaryName": "xm_x17_clip",
+        "image": "https://raw.githubusercontent.com/PN-Dev-Hub/fivem-props-image/refs/heads/main/images/xm/xm_lab_orbcan_screen_decal002.jpg",
+        "bounds": {
+          "bbMin": {
+            "x": -1,
+            "y": -1,
+            "z": 0
+          },
+          "bbMax": {
+            "x": 1,
+            "y": 1,
+            "z": 2.8
+          },
+          "bsCentre": {
+            "x": 0,
+            "y": 0,
+            "z": 1.4
+          },
+          "bsRadius": 2.5
+        },
+        "sourceFiles": [
+          "update/x64/dlcpacks/mpchristmas2017/dlc.rpf/x64/props/xm_lab_orbcan_screen_decal002.ydr",
+          "x64i/levels/gta5/props/interiors/sample_props.ytyp.xml"
+        ],
+        "sourcePacks": [
+          "props",
+          "sample_props"
+        ],
+        "categories": [
+          "Xm",
+          "DRAWABLE"
+        ],
+        "rpfPaths": [
+          "update/x64/dlcpacks/mpchristmas2017/dlc.rpf"
+        ],
+        "hasModelFile": true,
+        "hasDefinitionFile": true
+      }
+    ]
+  }
+]
